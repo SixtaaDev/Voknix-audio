@@ -2,35 +2,29 @@
 
 <img src="voknix-audio-logo.png" alt="Logo Voknix Audio" width="410">
 
-**Change de sortie audio et ajuste ta voix depuis une seule fenêtre Windows.**
-
-Passe du casque à l’écran en un clic, teste un effet au casque et envoie ta voix modifiée sur Discord. Voknix Audio v1.1 est conçu pour ces usages du quotidien.
+J’ai créé Voknix Audio pour passer du casque aux haut-parleurs de l’écran en un clic. Tu peux aussi écouter ton micro dans le casque, tester des effets de voix et les utiliser sur Discord avec VB-CABLE.
 
 <img src="interface-v1.1.png" alt="Voknix Audio v1.1 avec le thème Néon et le mode Neutre" width="520">
 
-## Ce que tu peux faire
+## Dans l’appli
 
-- Choisir ton micro et détecter les sorties Windows disponibles. Donne un nom à tes sorties et attribue deux raccourcis, par exemple **Casque** et **Écran**.
-- Choisir **Neutre**, **Voix grave**, **Voix aiguë**, **Robot** ou **Radio**. Dose le changement de hauteur avec **Intensité** et règle le timbre ou la réverbération dans le panneau **Effets voix**.
-- T’écouter avec **Echo**, couper le micro sélectionné dans Windows ou envoyer ta voix modifiée à Discord via **VB-CABLE**.
-- Choisir **Studio**, **Abysses**, **Néon** ou **Ivoire**. Le thème et les préférences de périphériques restent sur ton PC. Le lancement à l’ouverture de Windows est facultatif.
+- **Casque et écran** — Choisis ton micro, renomme tes sorties audio et configure deux raccourcis pour passer de l’une à l’autre.
+- **Effets de voix** — Essaie les modes Neutre, Voix grave, Voix aiguë, Robot et Radio. Tu peux régler l’intensité, le timbre et la réverbération.
+- **Retour micro** — Active **Echo** pour t’écouter ou coupe ton micro depuis l’appli.
+- **Préférences** — Choisis un thème parmi Studio, Abysses, Néon et Ivoire. Tes réglages restent sur ton PC et tu peux lancer l’appli au démarrage de Windows si tu veux.
 
-## Consommation mesurée pendant un appel Discord
+## Ce que j’ai mesuré en appel
 
-| Indicateur | Voknix Audio v1.1 |
-| --- | ---: |
-| RAM physique du processus | **20,7 Mio**, stable sur l’échantillon |
-| CPU moyen | **0,13 %** du processeur total |
-| Pic CPU observé | **0,73 %** sur un échantillon d’environ une seconde |
+Sur un PC Windows à huit processeurs logiques, j’ai mesuré **20,7 Mio de RAM** et **0,13 % de CPU en moyenne** pour Voknix Audio v1.1. Le pic observé était de **0,73 %** sur environ une seconde.
 
-Mesure réalisée sur un seul PC Windows à huit processeurs logiques, le 19 novembre 2026, pendant **14,7 secondes** en appel. Ces chiffres couvrent **le processus Voknix Audio seul**. La charge de Discord et celle du pilote VB-CABLE dans Windows sont exclues. Le mode d’effet actif n’a pas été consigné. Les chiffres peuvent varier selon le PC et les réglages.
+Le test a duré 14,7 secondes en appel Discord le 19 novembre 2026. Les chiffres couvrent seulement Voknix Audio, hors Discord et VB-CABLE. L’effet actif lors du test reste inconnu. Les résultats peuvent varier selon ton PC et tes réglages.
 
-## Prérequis et accès
+## Installation et achat
 
-- **Windows 64 bits**, un micro et une sortie audio pour écouter le retour.
-- **VB-CABLE** pour transmettre la voix modifiée à Discord. L’installateur officiel est fourni dans le pack. L’installation du pilote demande les droits administrateur et un redémarrage.
-- L’exécutable v1.1 est **non signé**. Windows peut afficher un avertissement SmartScreen au premier lancement. [Documentation Microsoft](https://learn.microsoft.com/windows/apps/package-and-deploy/smartscreen-reputation)
+Il te faut Windows 64 bits, un micro et une sortie audio pour t’écouter. Si tu veux envoyer ta voix modifiée sur Discord, installe **VB-CABLE** avec les droits administrateur, puis redémarre ton PC.
 
-**Prix de lancement — 4,99 € en paiement unique, sans abonnement.** Le pack comprend Voknix Audio v1.1, le guide et le paquet officiel de VB-CABLE. Pour obtenir le logiciel ou poser une question, contacte **Sixtaa sur Discord**.
+L’exécutable v1.1 est non signé. Windows peut afficher un avertissement SmartScreen au premier lancement. [Documentation Microsoft](https://learn.microsoft.com/windows/apps/package-and-deploy/smartscreen-reputation)
+
+Le pack est à **4,99 €**, en paiement unique. Il contient Voknix Audio v1.1, le guide et l’installateur officiel de VB-CABLE. Pour l’acheter ou poser une question, contacte-moi sur **Discord** (Sixtaa).
 
 [Guide d’installation et de dépannage](INSTALLATION.md) · [Comparatif](COMPARATIF.md) · [Notes v1.1](RELEASE-v1.1.md)
