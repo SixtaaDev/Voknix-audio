@@ -36,5 +36,5 @@ Mesure de la **v1.1**, réalisée sur un seul PC Windows à huit processeurs log
 
 **Prix de lancement — 4,99 € en paiement unique, sans abonnement.** Le pack comprend Voknix Audio v1.2, le guide et le paquet officiel de VB-CABLE. Pour obtenir le logiciel ou poser une question, contacte **Sixtaa sur Discord** ou **sixtaa.17.sb@gmail.com**.
 
-[Guide d’installation et de dépannage](INSTALLATION.md) · [Comparatif](COMPARATIF.md) · [Notes v1.2](RELEASE-v1.2.md)
+[Guide d’installation et de dépannage](INSTALLATION.md) · [Notes v1.2](RELEASE-v1.2.md)
 
