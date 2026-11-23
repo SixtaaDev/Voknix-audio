@@ -1,4 +1,4 @@
-# Installer Voknix Audio v1.1
+# Installer Voknix Audio v1.2
 
 ## 1. Extraire le pack
 
@@ -38,3 +38,8 @@ VB-CABLE est développé par **VB-Audio Software**. Son paquet officiel est four
 | Tu veux une voix sans effet tout en gardant le câble | Clique sur **Neutre** dans Voknix Audio. |
 
 **Besoin d’aide ?** Contacte **Sixtaa sur Discord** en indiquant ta version de Voknix Audio et ce que tu vois dans **Voix et vidéo**.
+
+## Réduction du bruit et diffusion sur Discord
+
+- **Réduction du bruit** est activée par défaut. Si Krisp perturbe ton micro, désactive-le et garde le filtre Voknix.
+- En partage d’écran, active **Mode stream** pour couper le retour local **Echo**, garde **Envoyer à Discord** coché et partage la fenêtre du jeu. Demande à un spectateur de comparer séparément le volume du stream et celui du vocal pour vérifier que ta voix n’est pas doublée.
